@@ -1,0 +1,91 @@
+body{
+    background-color: #f2f2f2;
+    height: 100vh;
+    font-family: 'Libre Baskerville', serif;
+   
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    border: 1px solid rgb(199, 198, 198);
+}
+.img_cabecalho{
+    max-width: 150px;
+}
+.d_butao{
+    gap: 30px;
+}
+.bt_1_cabecalho{
+    background-color: white;
+    border-radius: 2px;
+    padding: 8px 25px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.bt_2_cabecalho{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    border:  none;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+.principal_titulo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.principal_texto{
+    color: rgb(117, 117, 117);
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.caixa_blackwite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.caixa_blackwite1{
+    border: solid 2px black;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+.caixa_blackwite2{
+    border: solid 2px black;
+    font-size: 10px;
+    padding: 10px 30px;
+    border-radius: 0px 10px 10px 0px;
+}
+.planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.planos_caixas{
+    border: 2px solid rgb(187, 186, 186);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
